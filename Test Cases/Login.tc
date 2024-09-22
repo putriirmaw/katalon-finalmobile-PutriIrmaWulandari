@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06df2c85-2e52-4555-aa1e-0413464317f0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fabda3f7-44be-4c8d-b946-c42ad83a34fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7f4b03b-e267-4ec5-bfca-031e613174b2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('user-login')</defaultValue>
+      <description></description>
+      <id>fabda3f7-44be-4c8d-b946-c42ad83a34fb</id>
+      <masked>true</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('user-login')</defaultValue>
+      <description></description>
+      <id>d7f4b03b-e267-4ec5-bfca-031e613174b2</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

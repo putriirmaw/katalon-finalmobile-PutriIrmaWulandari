@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>user-login</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>43f801a0-11e4-4722-9222-9171b451a8e2</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password></password>
+   <query>SELECT *FROM public.user;</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user></user>
+   <usingGlobalDBSetting>true</usingGlobalDBSetting>
+</DataFileEntity>

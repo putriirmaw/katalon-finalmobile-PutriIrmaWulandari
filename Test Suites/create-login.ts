@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>create-login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ad7f4bec-2d8a-44bf-aee7-3a89d71c8426</testSuiteGuid>
+   <testCaseLink>
+      <guid>590e67f8-86f8-4acb-85f2-c8dadaa7e466</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/create-new-acc</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3dc378aa-a8ef-4ffe-9048-910c4415f844</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/user-login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3dc378aa-a8ef-4ffe-9048-910c4415f844</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>b2e116f9-7f5d-4acd-b960-52e51e48f762</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3dc378aa-a8ef-4ffe-9048-910c4415f844</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>6991f556-8040-4f9e-b28e-f1cfd9b7bfb8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3dc378aa-a8ef-4ffe-9048-910c4415f844</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>2b33ec71-826a-44ab-9fc4-baad7a261562</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f850cefc-3f3b-4bba-a3be-612a676c864e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fabda3f7-44be-4c8d-b946-c42ad83a34fb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d7f4b03b-e267-4ec5-bfca-031e613174b2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
